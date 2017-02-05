@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>oauth sample</title>
+</head>
+
+<body>
+  <h1>Sample OAuth 2</h1>
+  <div>
+    <div>
+      <div>
+        SignIn with: 
+      </div>
+      <div>
+        <a href="/login/facebook">
+          <img src="/img/facebook_logo.png" alt="sign in with facebook" />
+        </a> 
+      </div>
+      <div>
+        <a href="/login/github">
+          <img src="/img/github_logo.png" alt="sign in with GitHub" />
+        </a>
+      </div>
+      <div>
+        <a href="/login/google">
+          <img src="/img/google_logo.png" alt="sign in with GitHub" />
+        </a>
+      </div>
+      </div>
+    </div>
+    <div>
+        <a href="/user">Show user info</a>
+    </div>
+    <div>
+      <form action="/logout" method="post">
+        <input type="submit" value="Logout">
+      </form>
+    </div>
+</body>
+</html>
